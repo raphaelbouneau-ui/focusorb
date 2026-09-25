@@ -59,6 +59,53 @@
 <dd>$12 per seat per month. Unlimited members. Shared dashboard and automated weekly report.</dd>
 </dl>
 </section>
+<section id="waitlist" aria-labelledby="waitlist-title">
+  <h2 id="waitlist-title">Join the beta waitlist</h2>
+  <form>
+  <fieldset>
+    <legend>Your details</legend>
+    <label for="full-name">Full name</label>
+<input
+  type="text"
+  id="full-name"
+  name="full-name"
+  autocomplete="name"
+  required
+><label for="work-email">Work email</label>
+<input
+  type="email"
+  id="work-email"
+  name="work-email"
+  autocomplete="email"
+  required
+><label for="role">Your role</label>
+<select id="role" name="role" required>
+  <option value="" disabled selected>Select a role</option>
+  <option value="founder">Founder</option>
+  <option value="operator">Operator</option>
+  <option value="engineer">Engineer</option>
+  <option value="designer">Designer</option>
+</select>
+<label for="team-message">Tell us about your team (optional)</label>
+<textarea id="team-message" name="team-message" rows="4"></textarea>
+<p id="beta-commitment">
+  The beta includes weekly check-ins and a three-month pilot.
+</p>
+
+<input
+  type="checkbox"
+  id="beta-acknowledgement"
+  name="beta-acknowledgement"
+  aria-describedby="beta-commitment"
+  required
+>
+<label for="beta-acknowledgement">
+  I understand the beta obligations.
+</label>
+  </fieldset>
+  <button type="submit">Reserve beta seat</button>
+</form>
+</section>
 </main>
  <footer>
   <nav aria-label="Footer">
