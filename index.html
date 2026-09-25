@@ -6,36 +6,66 @@
   </head>
   <body>
 <header>
-  <nav>
-    <span>FocusOrb</span>
-    <a href="#">Features</a>
-    <a href="#">Pricing</a>
-    <a href="#">Sign in</a>
+  <nav aria-label="Main">
+    <p><strong>FocusOrb</strong></p>
+    <a href="#features">Features</a>
+    <a href="#pricing">Pricing</a>
+    <a href="#waitlist">Sign in</a>
   </nav>
 </header>
 <main>
-  <section>
-    <h1>Make deep work a team habit</h1>
+  <section aria-labelledby="hero-title">
+    <h1 id="hero-title">Make deep work a team habit</h1>
     <p>FocusOrb helps small teams work together through structured focus sessions.</p>
     <p>Start a 25-minute focus session and keep distractions away. Follow your <span>weekly progress</span> with the whole team.</p>
-<a href="#">Start for free</a>
+<a href="#waitlist">Start for free</a>
   </section>
-  <section>
-  <h2>Features</h2>
-  <ul>
-<li><strong>Focus session timer:</strong> Work together in 25-minute sessions.</li>
-<li><strong>Shared team dashboard:</strong> See team tasks at a glance.</li>
-<li><strong>Weekly progress report:</strong> Review each week's progress.</li>
-</ul>
+  <section id="features" aria-labelledby="features-title">
+  <h2 id="features-title">Features</h2>
+<article>
+  <h3>Focus session timer</h3>
+  <p>Work together in 25-minute sessions.</p>
+</article>
+<article>
+  <h3>Shared team dashboard</h3>
+  <p>See team tasks at a glance.</p>
+</article>
+<article>
+  <h3>Weekly progress report</h3>
+  <p>Review each week's progress.</p>
+</article>
 </section>
-<section>
-  <h2>Join the beta</h2>
-  <p>Get early access to FocusOrb and help shape the product.</p>
-  <a href="#">Reserve your spot</a>
+<section aria-labelledby="voices-title">
+  <h2 id="voices-title">What early users say</h2>
+  <blockquote>
+  <p>Our weekly standups shrank from 45 minutes to 10 once everyone had a shared focus log.</p>
+  <cite>Zara, climate marketplace founder</cite>
+</blockquote>
+<blockquote>
+  <p>Investors stopped asking for status decks mid-sprint. The weekly report handled it.</p>
+  <cite>Noah, AI ops lead</cite>
+</blockquote>
+<blockquote>
+  <p>Three months in, meeting debt is down 40%. That is the only metric the board cares about.</p>
+  <cite>Mei, Head of Ops</cite>
+</blockquote>
+</section>
+<section id="pricing" aria-labelledby="pricing-title">
+  <h2 id="pricing-title">Simple pricing</h2>
+  <dl>
+  <dt>Explorer</dt>
+  <dd>Free forever. Up to 3 team members. Core focus timer and daily log.</dd>
+  <dt>Collective</dt>
+<dd>$12 per seat per month. Unlimited members. Shared dashboard and automated weekly report.</dd>
+</dl>
 </section>
 </main>
  <footer>
-  <p>© 2026 FocusOrb</p>
+  <nav aria-label="Footer">
+  <a href="#features">Features</a>
+  <a href="#pricing">Pricing</a>
+</nav>
+  <p><small>&copy; 2026 FocusOrb</small></p>
 </footer>
   </body>
 </html>
